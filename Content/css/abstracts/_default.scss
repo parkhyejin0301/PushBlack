@@ -1,0 +1,113 @@
+//default.scss
+//----------------------------------------------//
+/*                     컬러                     */
+//----------------------------------------------//
+$black_1 : #111;
+$black_2 : #151515;
+$black_3 : #333;
+$black_4 : #555;
+$black_5 : #777; 
+$black_6 : #999;
+$black_7 : #aaa;
+$black_8 : #ccc;
+$black_9 : #e6e6e6 ;
+$black_10 : #eee;
+$black_11 : #f0f0f0;
+$black_12 : #f6f6f6; 
+$white : #ffffff;
+$point_red : #ff0000;
+$point_blue : #353cdd;
+$point_yellow : #efd783;
+
+//----------------------------------------------//
+/*                 공간 커스텀                   */
+//----------------------------------------------//
+%mt5{margin-top: 5px;}
+%mt8{margin-top: 8px;}
+%mt10{margin-top: 10px;}
+%mt15{margin-top: 15px;}
+%mt20{margin-top: 20px;}
+%mt30{margin-top: 30px;}
+%mt40{margin-top: 40px;}
+%mt60{margin-top: 60px;}
+%mt80{margin-top: 80px;}
+%mt100{margin-top: 100px;}
+%mb5{margin-bottom: 5px;}
+%mb8{margin-bottom: 8px;}
+%mb10{margin-bottom: 10px;}
+%mb15{margin-bottom: 15px;}
+%mb20{margin-bottom: 20px;}
+%mb30{margin-bottom: 30px;}
+%mb40{margin-bottom: 40px;}
+%mb60{margin-bottom: 60px;}
+%mb80{margin-bottom: 80px;}
+%mb100{margin-bottom: 100px;}
+%pt5{padding-top: 5px;}
+%pt8{padding-top: 8px;}
+%pt10{padding-top: 10px;}
+%pt15{padding-top: 15px;}
+%pt20{padding-top: 20px;}
+%pt30{padding-top: 30px;}
+%pt40{padding-top: 40px;}
+%pt60{padding-top: 60px;}
+%pt80{padding-top: 80px;}
+%pt100{padding-top: 100px;}
+%pb5{padding-bottom: 5px;}
+%pb8{padding-bottom: 8px;}
+%pb10{padding-bottom: 10px;}
+%pb15{padding-bottom: 15px;}
+%pb20{padding-bottom: 20px;}
+%pb30{padding-bottom: 30px;}
+%pb40{padding-bottom: 40px;}
+%pb60{padding-bottom: 60px;}
+%pb80{padding-bottom: 80px;}
+%pb100{padding-bottom: 100px;}
+
+//----------------------------------------------//
+/*                      정렬                    */
+//----------------------------------------------//
+%text-center{text-align: center;}
+%text-left{text-align: left;}
+%text-right{text-align: right;}
+%d-flex{display: flex;}
+%f-align-center{align-items: center;}
+%f-justify-center{justify-content: center;}
+%f-justify-spacebetween{justify-content: space-between;}
+%f-justify-spacearound{justify-content: space-around;}
+
+
+//----------------------------------------------//
+/*               toastr 커스텀                  */
+//----------------------------------------------//
+#toast-container{ top: 50%; left: 50%; right: 0; transform: translate(-50%,-50%); width: 90%; }
+#toast-container > .toast-error ,#toast-container > .toast-success {
+    background-color: #efd783  !important;
+    width: 100%;
+    box-shadow: none; 
+    opacity: 1;
+    border-radius: 25px;
+}
+
+
+//----------------------------------------------//
+/*                    반응형                    */
+//----------------------------------------------//
+@media only screen and (max-width:769px) {
+
+}
+
+@media only screen and (max-width:576px) {
+    
+}
+
+@media only screen and (max-width:376px) {
+
+}
+
+@media only screen and (max-width:321px) {
+
+}
+
+@media only screen and (max-width:281px) {
+
+}
